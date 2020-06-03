@@ -49,7 +49,7 @@ void setup() {
 
 void draw() {
   if (stage==1) {
-    if (keyPressed == true || keyCode == ' ' ) {   // start menu
+    if (key == ' ') {   // start menu
       stage = 2;
     }
   }
